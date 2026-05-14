@@ -196,7 +196,7 @@ jobs:
         run: |
           set -euo pipefail
           for XCODE_APP in \
-            /Applications/Xcode_26.0.app \
+            /Applications/Xcode_26.2.app \
             /Applications/Xcode_16.4.app \
             /Applications/Xcode_16.3.app \
             /Applications/Xcode.app
