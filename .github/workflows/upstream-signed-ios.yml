@@ -1,8 +1,8 @@
 name: Upstream Signed iOS Build
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
+  # schedule:
+  #   - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       source_kind:
